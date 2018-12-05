@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.a{
+	border-style:solid;
+	border-color:black;
+	height:200px;
+	width:200px;
+	transition: width 0.5s, height 0.5s;
+	}
+.a:hover {
+  width: 400px;
+  height: 400px;
+}
+
+.b{
+	border-style:solid;
+	border-color:black;
+	background-color: red;
+	height:200px;
+	width:200px;
+	transition: background-color 0.5s;
+	}
+.b:hover {
+  background-color:yellow;
+}
+
+.c{
+	border-style:solid;
+	border-color:black;
+	height:200px;
+	width:200px;
+	transition:margin-left 3s;
+	}
+.c:hover{
+	margin-left:300px;
+}
+
+.d{
+	border-style:solid;
+	border-color:black;
+	height:200px;
+	width:200px;
+	transition: width 2s, height 2s, transform 2s;
+	}
+.d:hover{
+	width: 450px;
+	height: 700px;
+	transform:rotate(45deg);
+}
+
+.e{
+	border-style:solid;
+	border-color:black;
+	height:200px;
+	width:200px;
+	transition:width 2s,transform 2s ;
+	}
+.e:hover{
+	width:300px;
+	transform: translate(50px, 100px);
+}
+
+.f{
+	border-style:solid;
+	border-color:black;
+	height:200px;
+	width:200px;
+	transition: height 2s, transform 1s;
+	}
+.f:hover{
+	height: 550px;
+	transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+</style>
+</head>
+
+<body>
+<div class = "a">1° box</div>
+<div class = "b">2° box</div>
+<div class = "c">3° box</div>
+<div class = "d">4° box</div>
+<div class = "e">5° box</div>
+<div class = "f">6° box</div>
+</body>
+
+</html>
